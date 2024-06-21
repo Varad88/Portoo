@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/assets/css/appointment_Booking.css" type="text/css" media="all" />
+  <script src="/assets/js/appointment_Booking.js" type="module"></script>
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <title>Book Appointment </title>
+</head>
+
+<body>
+  <link rel="stylesheet" href="/assets/css/appointment_Booking.css" type="text/css" media="all" />
+  <script src="/assets/js/appointment_Booking.js" type="module"></script>
+  </head>
+
+  <body>
+    <section>
+      <form action="./pay.html" method="post">
+        <h2>Book Appointment</h2>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="timing">Timing:</label><br>
+        <select id="timing" name="timing">
+          <option value="4pm-8pm">4 PM to 8 PM</option>
+        </select><br>
+
+        <label for="fees">Fees:</label><br>
+        <input type="text" id="fees" name="fees" value="₹500" readonly><br><br>
+
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </body>
+
+</html>
